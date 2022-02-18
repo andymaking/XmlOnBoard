@@ -6,6 +6,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
+        android:background="@color/right_blue"
         android:layout_height="match_parent">
 
         <androidx.constraintlayout.widget.Guideline
@@ -24,21 +25,24 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/signUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
             android:layout_marginTop="25dp"
             android:text="Sign Up"
+            android:background="@drawable/backup"
             android:textColor="@color/dark_blue"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
         <Button
+            android:id="@+id/logIn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:layout_marginEnd="25dp"
+            android:background="@drawable/backup"
             android:text="Login"
             android:textColor="@color/dark_blue"
             app:layout_constraintEnd_toEndOf="parent"
