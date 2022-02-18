@@ -7,11 +7,10 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/circleImageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginBottom="40sp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:background="@drawable/circle"
-        android:padding="15dp"
+        android:padding="9dp"
         android:src="@drawable/build"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,8 +30,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40sp"
         android:fontFamily="@font/roboto_medium"
-        android:text="TextView"
-        android:textSize="24sp"
+        android:text="@string/textview"
+        android:textSize="35sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,13 +43,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="25dp"
-        android:layout_marginTop="20dp"
         android:maxLines="5"
         android:text="TexView2"
+        android:textSize="27sp"
+        android:justificationMode="inter_word"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textHead" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

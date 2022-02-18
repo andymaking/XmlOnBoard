@@ -26,6 +26,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <me.relex.circleindicator.CircleIndicator3
+            android:id="@+id/indicator"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             app:layout_constraintBottom_toBottomOf="@+id/viewPager2"
