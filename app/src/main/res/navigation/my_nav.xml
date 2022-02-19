@@ -30,10 +30,13 @@
         android:id="@+id/signupFragment"
         android:name="io.king.xmlonboard.ui.signup.SignupFragment"
         android:label="fragment_signup"
-        tools:layout="@layout/fragment_signup" />
+        tools:layout="@layout/fragment_signup" >
+
+    </fragment>
     <fragment
         android:id="@+id/loginFragment"
         android:name="io.king.xmlonboard.ui.login.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+    </fragment>
 </navigation>
