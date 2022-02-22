@@ -3,14 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/backin.xml" value="0.1415" />
         <entry key="app/src/main/res/drawable/backup.xml" value="0.1415" />
         <entry key="app/src/main/res/drawable/circle.xml" value="0.1415" />
         <entry key="app/src/main/res/drawable/onboarding_indicator_active.xml" value="0.1415" />
         <entry key="app/src/main/res/drawable/onboarding_indicator_inactive.xml" value="0.1415" />
+        <entry key="app/src/main/res/drawable/shadow.xml" value="0.1415" />
+        <entry key="app/src/main/res/drawable/shadowed.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/trans.xml" value="0.1415" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_front.xml" value="0.2" />
-        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.16" />
         <entry key="app/src/main/res/layout/fragment_onboarding.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_signup.xml" value="0.18" />
         <entry key="app/src/main/res/layout/item_onboarding.xml" value="0.1" />

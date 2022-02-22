@@ -9,5 +9,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="dark_blue">#1A1C3A</color>
     <color name="right_blue">#494EED</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="your_btncolor">#395683</color>
+    <color name="use">#94FFFFFF</color>
+    <color name="redOne">#EB4438</color>
 
 </resources>
